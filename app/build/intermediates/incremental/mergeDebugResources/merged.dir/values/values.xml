@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="labels_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
     <attr format="boolean" name="barrierAllowsGoneWidgets"/>
     <attr format="enum" name="barrierDirection">
         <enum name="left" value="0"/>
@@ -800,14 +806,18 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_settings">Settings</string>
+    <string name="address_label_text">Address</string>
     <string name="app_name">Droid Cafe</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="change_dessert">Change dessert</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="choose_delivery_method">Choose a delivery method:</string>
     <string name="donut_order_message">You ordered a donut.</string>
     <string name="donuts">Donuts are glazed and sprinkled with candy.</string>
     <string name="enter_name_hint">enter your name</string>
+    <string name="enter_note_hint">Enter note</string>
+    <string name="enter_phone_hint">Enter phone</string>
     <string name="enter_your_name">Enter your name</string>
     <string name="froyo">FroYo is premium self-serve frozen yogurt.</string>
     <string name="froyo_order_message">You ordered a FroYo.</string>
@@ -815,12 +825,17 @@
     <string name="ice_cream_sandwiches">Ice cream sandwiches have chocolate wafers and vanilla filling.</string>
     <string name="intro_text">Droid Desserts</string>
     <string name="name_label_text">Name</string>
+    <string name="next_day_ground_delivery">Next day ground delivery</string>
+    <string name="note_label_text">Note</string>
     <string name="order_label_text">Order:</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="phone_label_text">Phone</string>
+    <string name="pick_up">Pick up</string>
+    <string name="same_day_messenger_service">Same day messenger service</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
