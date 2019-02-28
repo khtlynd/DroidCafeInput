@@ -81,6 +81,11 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
             default:
                 break;
         }
+
+        switch (item.getItemId()) {
+            case R.id.action_order:
+                Intent intent = new Intent
+        }
     }
 
     @Override
